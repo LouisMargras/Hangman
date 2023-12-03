@@ -7,7 +7,7 @@ Vous pouvez seulement écrire avec les lettres en MAJUSCULE.
 Si ce n’est pas le cas, un texte apparaîtra, indiquant que votre entrée n’est pas possible :
 
 Hangman apparaitra sous cette forme :
-```
+
 ```console
 attemp 1:
 
@@ -117,7 +117,7 @@ attemp 10:
       |  
 =========
 ```
-NOus avons fait de l'ASCII art dans notre porjet.
+Nous avons également ajouté de l'ASCII art dans notre projet.
 Vous aurez le choix entre 3 types of ASCII-ART:
 - The Standard:
 ```console
