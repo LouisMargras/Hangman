@@ -1,21 +1,13 @@
-Here is the presentation for our project Hangman.
+Voici la présentation de notre projet Hangman.
 
-This program execute the Hangman Game on termial, you have ten attemps to thing the right word.
-You have the possibility to try letters, if the letter is wrong you loss one attemp.
+Ce programme exécute le Hangman sur termial, vous avez dix chances (attempts) pour trouver le mot juste.
+Vous avez la possibilité d’essayer des lettres, si la lettre est fausse vous perdez une vie.
 
-Be aware! you can only write with CAPITAL letter.
-If its not the case a text will appear, saying your entry is not possible:
-```console
- _______   _       _           _                             _                                _   _             _   _ 
-|__   __| | |     (_)         (_)                           | |                              (_) | |           | | | |
-   | |    | |__    _   ___     _   ___       _ __     ___   | |_        ___    __ _   _ __    _  | |_    __ _  | | | |
-   | |    |  _ \  | | / __|   | | / __|     | '_ \   / _ \  | __|      / __|  / _` | | '_ \  | | | __|  / _` | | | | |
-   | |    | | | | | | \__ \   | | \__ \     | | | | | (_) | \ |_      | (__  | (_| | | |_) | | | \ |_  | (_| | | | |_|
-   |_|    |_| |_| |_| |___/   |_| |___/     |_| |_|  \___/   \__|      \___|  \__,_| | .__/  |_|  \__|  \__,_| |_| (_)
-                                                                                     |_|                              
+Vous pouvez seulement écrire avec les lettres en MAJUSCULE.
+Si ce n’est pas le cas, un texte apparaîtra, indiquant que votre entrée n’est pas possible :
+
+Hangman apparaitra sous cette forme :
 ```
-
-Hangman will be dislplayed like this.
 ```console
 attemp 1:
 
@@ -125,7 +117,8 @@ attemp 10:
       |  
 =========
 ```
-We added the ASCII-ART to our project, the player will have choice at the begining of the game between three different types of ASCII-ART:
+NOus avons fait de l'ASCII art dans notre porjet.
+Vous aurez le choix entre 3 types of ASCII-ART:
 - The Standard:
 ```console
 __     __                        _                                           
@@ -136,7 +129,6 @@ __     __                        _
    |_|     \___/   \__,_|       |_| |_|  \__,_|   \_/    \___|        \___/   
                                                                              
 ```
-
 - The Shadow:
 ```console
 
@@ -157,89 +149,6 @@ o   o                o                          o-o
   o   o-o o--o       o  o o-o-   o   o-o        o-o  
 
 ```
-We have also added some features, which are the following:
-- The player will have the opportunity to pick words if he wants, at every wrong word he will loose two attemps.
-```console
-__     __                        _                                             
-\ \   / /                       | |                                   _____  
- \ \_/ /    ___    _   _        | |__     __ _  __   __   ___        |___  | 
-  \   /    / _ \  | | | |       |  _ \   / _` | \ \ / /  / _ \          / /  
-   | |    | (_) | | |_| |       | | | | | (_| |  \ V /  |  __/         / /  
-   |_|     \___/   \__,_|       |_| |_|  \__,_|   \_/    \___|        /_/   
-                                                                            
+Le reste nous vous laisson le plaisir de le decouvrir ! 
 
-  +---+
-      |
-      |
-      |
-      |
-      |
-=========
-[ M, E, R, T, I, F, S,  ]
-_OSSIER
-Choose: GROSSIER
-```
-```console
-__     __                        _                                           
-\ \   / /                       | |                                   ____
- \ \_/ /    ___    _   _        | |__     __ _  __   __   ___        | ___|
-  \   /    / _ \  | | | |       |  _ \   / _` | \ \ / /  / _ \       |___ \
-   | |    | (_) | | |_| |       | | | | | (_| |  \ V /  |  __/         __) |
-   |_|     \___/   \__,_|       |_| |_|  \__,_|   \_/    \___|       |____/
-
-
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========
-
-[ M, E, R, T, I, F, S, GROSSIER,  ]
-_OSSIER
-```
-
-- If the player finds the word the game will end with a message that he has won.
-```console
-DOSSIER
-  _____    _____                                                      _           _
- / ____|  / ____|                                                    (_)         | |
-| |  __  | |  __             _   _    ___    _   _        __      __  _   _ __   | |
-| | |_ | | | |_ |           | | | |  / _ \  | | | |       \ \ /\ / / | | | '_ \  | |
-| |__| | | |__| |  _        | |_| | | (_) | | |_| |        \ V  V /  | | | | | | |_|
- \_____|  \_____| ( )        \__, |  \___/   \__,_|         \_/\_/   |_| |_| |_| (_)
-                  |/         __/ /
-
-```
-- The player will not have the opportunity to enter the same word or letter again.
-```console
-Choose: GROSSIER
-__     __                                               _                                                              _           _  
-\ \   / /                                              | |                                              __ _          (_)         | |
- \ \_/ /    ___    _   _          ___    __ _   _ __   | |_         _   _   ___    ___          __ _   / _` |   __ _   _   _ __   | |
-  \   /    / _ \  | | | |        / __|  / _` | | '_ \  | __|       | | | | / __|  / _ \        / _` | | (_| |  / _` | | | | '_ \  | |
-   | |    | (_) | | |_| |       | (__  | (_| | | | | | \ |_        | |_| | \__ \ |  __/       | (_| |  \__, | | (_| | | | | | | | |_|
-   |_|     \___/   \__,_|        \___|  \__,_| |_| |_|  \__|        \__,_| |___/  \___|        \__,_|   __/ |  \__,_| |_| |_| |_| (_)
-                                                                                                       |___/
-
-Choose:
-```
-
-It is also possible to stop the game and save it for the next game.
-To do this, you simply have to mark STOP and the game will stop and a message will appear telling you that it is saved.
-
-exemple:
-```console
-      |
-      |
-      |
-      |
-      |
-=========
-
-[ MAC,  ]
-__R__
-Choose: STOP
-Party saved!
-```
+Have a Good Game !
