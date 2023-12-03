@@ -1,9 +1,6 @@
 # Hangman
-<<<<<<< HEAD
 Voici un Hangman preésenté par Giovanni et Margras Louis
 =======
-Voici un Hangman présenté par Giovanni et Margras Louis 
-
 Voici la présentation de notre projet Hangman.
 
 Ce programme exécute le Hangman sur termial, vous avez dix chances (attempts) pour trouver le mot juste.
